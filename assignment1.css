@@ -1,0 +1,574 @@
+.body {
+    width: 1600px;
+    height: 7335px;
+    margin: 50px 140px 0px 140px;
+    background: #FFF;
+}
+
+.header {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background: url('../images/Banner Image.png');
+    border-radius: 16px;
+    background-color: (180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+#happy {
+    color: #FFF;
+    padding: 190px 531px 0px 530px;
+    margin: 0px;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#party {
+    width: 632px;
+    color: #FFF;
+    margin: 0px;
+    padding: 0px 344px 177px 390px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+#cel {
+    padding-left: 60px;
+}
+
+/*Declaration part*/
+.declaration {
+    padding: 100px 700px 0px 525px;
+}
+
+#off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#all {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    margin: 0px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#happy-pic {
+    width: 700px;
+    height: 400px;
+    margin: 0px;
+    padding: 30px 1600px 0px 350px;
+}
+
+.vectorr {
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background-repeat: no-repeat;
+    background-image: url('../images/Vectorrr.png');
+    background-color: rgb(165, 162, 162);
+}
+
+#welcome {
+    width: 642px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 126px;
+    padding-left: 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 6px;
+}
+
+#dolor {
+    width: 600px;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#join {
+    color: #FFF;
+    padding-left: 156px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.vectorr>img {
+    width: 319.83px;
+    height: 464.662px;
+    flex-shrink: 0;
+    float: right;
+    padding-right: 130px;
+    padding-top: 75px;
+    fill: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
+    background-blend-mode: darken;
+    mix-blend-mode: normal;
+}
+
+.new-park {
+    width: 1320px;
+    height: 482px;
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+#park {
+    padding-top: 90px;
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+#btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#best-coming-sit {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+#best {
+    color: #F00;
+    font-family: Inter;
+    padding-top: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#coming {
+    color: #070211;
+    margin: 0px;
+    padding: 0px;
+    font-family: Merriweather;
+    font-size: 40px;
+    line-height: 0px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sit {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#section-1 {
+    padding-left: 5px;
+}
+
+#ellipse {
+    width: 260px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    padding: 23px;
+    border: 12px solid #F00;
+}
+
+#year {
+    color: #F00;
+    font-family: Inter;
+    margin: 2px;
+    padding-top: 17px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#sit-1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    margin: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#new-year-pic {
+    width: 118px;
+    height: 118px;
+    padding-right: 205px;
+    padding-bottom: 150px;
+}
+
+.description {
+    width: 1320px;
+    height: 900px;
+    text-align: center;
+}
+
+#what {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-right: 18px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holidays {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+#holi-red {
+    color: #F00;
+}
+
+#sit-2 {
+    text-align: center;
+    display: flex;
+    padding-left: 300px;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+#flower {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+
+#fifty {
+    padding-left: 335px;
+    padding-top: 105px;
+    width: 225.841px;
+    height: 225.841px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+#girl {
+    float: right;
+    width: 429px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+#red-2 {
+    width: 1320px;
+    height: 220px;
+}
+
+.portfolio {
+    width: 1320px;
+    height: 1060px;
+    padding: 2px;
+}
+
+#the {
+    color: #F00;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#our {
+    color: #070211;
+    margin: 0px;
+    padding: 0px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#sit-3 {
+    width: 750px;
+    padding: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#p1 {
+    width: 414px;
+    height: 440px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+#p2 {
+    width: 414px;
+    height: 440px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+#p3 {
+    width: 414px;
+    height: 440px;
+    padding-bottom: 24px;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+#p4 {
+    width: 414px;
+    height: 440px;
+    padding-right: 24px;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+#p5 {
+    width: 414px;
+    height: 440px;
+    padding-right: 24px;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+#p6 {
+    width: 414px;
+    height: 440px;
+    border-radius: 16px;
+    flex-shrink: 0;
+}
+
+.subscriber-part {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    padding-left: 100px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+#email-pic {
+    width: 140px;
+    height: 140px;
+    padding-left: 50px;
+    flex-shrink: 0;
+    padding-top: 80px;
+}
+
+#sub-1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+
+#sit-4 {
+    width: 750px;
+    padding-left: 350px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#input-1 {
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border-width: 0px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-left: 6px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sub-2 {
+    width: 180px;
+    height: 59px;
+    flex-shrink: 0;
+    border-width: 0px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.last {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin-left: 0px;
+}
+
+#big {
+    width: 375px;
+    height: 80px;
+    padding-top: 120px;
+    padding-left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#call {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    float: right;
+    margin: 0px;
+    padding-right: 200px;
+}
+
+.footer-pic {
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+#right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 140px;
+    padding-top: 150px;
+}
+#unsub{
+    float: right;
+    padding-right: 150px;
+}
