@@ -9,7 +9,7 @@
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
-    background: url('../images/Banner Image.png');
+    background: url('./images/Banner Image.png');
     border-radius: 16px;
     background-color: (180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
 }
