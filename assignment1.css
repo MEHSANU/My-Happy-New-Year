@@ -93,7 +93,7 @@
     flex-shrink: 0;
     border-radius: 14px;
     background-repeat: no-repeat;
-    background-image: url('../images/Vectorrr.png');
+    background-image: url('./images/Vectorrr.png');
     background-color: rgb(165, 162, 162);
 }
 
